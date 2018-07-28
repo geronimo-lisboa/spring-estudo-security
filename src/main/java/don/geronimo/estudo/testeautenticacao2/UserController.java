@@ -9,6 +9,7 @@ public class UserController {
     public String getData(){
         return "{\"loren\":\"ipsun\"}";
     }
+    
     @PostMapping("/login/")
     @ResponseBody
     public String login(@RequestBody User usu){
